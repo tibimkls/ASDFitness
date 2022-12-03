@@ -1,4 +1,3 @@
 # ASDFitness
 
-# try and error
-# welcome
+try and error
