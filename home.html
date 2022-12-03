@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+        <meta charset="UTF-8"
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initail-scale=1.0">
+        <title>Fitness Timer ASDF</title>
+        <link rel="stylesheet" href="style.css">
+    
+    </head>
+    
+    <body>
+       
+        <div class="header"><h1 class="header__logo">HIIT TIMER</h1></div>
+        <main class="main">
+            <h2 class="heading">Setup</h2>
+
+            <form class="form" method="post">
+                
+                <label class="form__label" for="exercise">Exercise:</label>
+                <input class="form_input" type="number" name="exercise" id="exercise" value="45"/>
+                <span class="units">(seconds)</span>
+
+                <label class="form__label" for="rest">Rest:</label>
+                <input class="form_input" type="number" name="rest" id="rest" value="15"/>
+                <span class="units">(seconds)</span>
+                
+                <label class="form__label" for="sets">Sets:</label>
+                <input class="form_input" type="number" name="sets" id="sets" value="6"/>
+            
+                <div class="form__button-Container">
+                    <button class="button" type="submit">Start!</button>
+                </div>
+            </form>
+        </main>
+      
+    </body>
+</html>
